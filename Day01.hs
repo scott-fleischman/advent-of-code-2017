@@ -1,5 +1,3 @@
-module Day01 where
-
 import qualified Data.List
 
 equalNeighbors :: [Char] -> [Char]

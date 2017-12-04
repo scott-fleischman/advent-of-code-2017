@@ -1,0 +1,11 @@
+name: advent-of-code
+version: 1.0.0
+dependencies:
+- base
+executables:
+  day01:
+    main: Day01.hs
+  day02:
+    main: Day02.hs
+    dependencies:
+    - interpolate

@@ -11,3 +11,5 @@ executables:
     - interpolate
   day03:
     main: Day03.hs
+    dependencies:
+    - containers

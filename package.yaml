@@ -9,3 +9,5 @@ executables:
     main: Day02.hs
     dependencies:
     - interpolate
+  day03:
+    main: Day03.hs

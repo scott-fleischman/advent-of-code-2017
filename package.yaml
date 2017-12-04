@@ -13,3 +13,7 @@ executables:
     main: Day03.hs
     dependencies:
     - containers
+  day04:
+    main: Day04.hs
+    dependencies:
+    - interpolate

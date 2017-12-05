@@ -2,18 +2,19 @@ name: advent-of-code
 version: 1.0.0
 dependencies:
 - base
+- interpolate
 executables:
   day01:
     main: Day01.hs
   day02:
     main: Day02.hs
-    dependencies:
-    - interpolate
   day03:
     main: Day03.hs
     dependencies:
     - containers
   day04:
     main: Day04.hs
-    dependencies:
-    - interpolate
+  day05:
+    main: Day05.hs
+    ghc-options:
+    - -O2
